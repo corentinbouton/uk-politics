@@ -40,13 +40,13 @@ The model achieved **85% macro accuracy** on the validation set. By predicting a
 
 ### Confusion Matrix
 
-<div style="display: flex; justify-content: center;">
-	<div style="text-align: center;">
-		<img src="./results//confusion_matrix_train.png" alt="Training set confusion matrix" style="width: 80%">
+<div style="display: flex; justify-content: center;" align="center">
+	<div style="text-align: center;" align="center">
+		<img src="./results//confusion_matrix_train.png" alt="Training set confusion matrix" style="width: 400px; margin-right: 20px;">
 		<p>Training set</p>
 	</div>
-	<div style="text-align: center;">
-		<img src="./results/confusion_matrix_val.png" alt="Validation set confusion matrix" style="width: 80%">
+	<div style="text-align: center;" align="center">
+		<img src="./results/confusion_matrix_val.png" alt="Validation set confusion matrix" style="width: 400px; margin-right: 20px;">
 		<p>Validation set</p>
 	</div>
 </div>
@@ -55,15 +55,15 @@ As we can see, the model is overfitting.
 
 ### Feature Importance
 
-<div style="text-align: center;">
-	<img src="./results/feature_importance.png" alt="Top 20 feature importance plot" style="width: 70%">
-</div>
+<p align="center">
+	<img src="./results/feature_importance.png" alt="Top 20 feature importance plot" style="width: 800px">
+</p>
 
 ### UK Political Party Scale
 
-<div style="text-align: center;">
-	<img src="./results/political_party_spectrum.png" alt="Political party spectrum plot" style="width: 70%">
-</div>
+<p align="center">
+	<img src="./results/political_party_spectrum.png" alt="Political party spectrum plot" style="width: 800px">
+</p>
 
 ## Repository Structure
 
