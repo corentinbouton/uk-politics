@@ -40,18 +40,13 @@ The model achieved **85% macro accuracy** on the validation set. By predicting a
 
 ### Confusion Matrix
 
-<div style="display: flex; justify-content: center;" align="center">
-	<div style="text-align: center;" align="center">
-		<img src="./results//confusion_matrix_train.png" alt="Training set confusion matrix" style="width: 300px; margin-right: 20px;">
-		<p>Training set</p>
-	</div>
-	<div style="text-align: center;" align="center">
-		<img src="./results/confusion_matrix_val.png" alt="Validation set confusion matrix" style="width: 300px; margin-right: 20px;">
-		<p>Validation set</p>
-	</div>
-</div>
+<p align="center">
+  <img alt="Light" src="./results/confusion_matrix_train.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="Dark" src="./results/confusion_matrix_val.png" width="45%">
+</p>
 
-As we can see, the model is overfitting.
+As we can see, the model is slightly overfitting.
 
 ### Feature Importance
 
@@ -59,7 +54,7 @@ As we can see, the model is overfitting.
 	<img src="./results/feature_importance.png" alt="Top 20 feature importance plot" style="width: 700px">
 </p>
 
-### UK Political Party Scale
+### UK Political Party Spectrum
 
 <p align="center">
 	<img src="./results/political_party_spectrum.png" alt="Political party spectrum plot" style="width: 700px">
