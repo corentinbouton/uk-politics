@@ -8,7 +8,7 @@ The UK Politics project, dubbed "From Words to Votes," aims to classify speeches
 
 The primary goal of this project is to build a machine learning model that can accurately classify speeches based on the political party affiliation of the speaker. Specifically, the project involves:
 
-- Preprocessing the speech data through tokenization, stop words removal, custom cleaning rules, stemming, and vectorization using TF-IDF.
+- Preprocessing the speech data through tokenization, stop words removal, custom cleaning rules, stemming, sentiment analysis and vectorization using TF-IDF.
 - Training and validating the model using speeches from speakers affiliated with either the Labour Party or the Conservative Party, with the remaining speeches reserved for the test set.
 - Utilizing a Random Forest model for prediction.
 - Calculating a score ranging from 0 to 1 (left to right-wing) for each speech in the test set, allowing for the plotting of a political scale for each political party in the UK.
@@ -28,6 +28,7 @@ The following preprocessing steps were applied to the speech data:
 - Stop words removal.
 - Custom cleaning rules.
 - Stemming.
+- Sentiment analysis.
 - Vectorization using TF-IDF.
 
 ## Model Used
@@ -36,7 +37,7 @@ The Random Forest model was selected for its ability to handle high-dimensional 
 
 ## Results
 
-The model achieved **85% macro accuracy** on the validation set. By predicting a score for each speech and aggregating the results, a political scale was plotted for each political party in the UK, providing insights into their ideological positioning.
+The model achieved **85% macro accuracy** on the validation set. By predicting a score for each speech and aggregating the results, a political scale was plotted for each political party in the UK, providing insights into their ideological positioning and sentiments conveyed through their speeches.
 
 ### Confusion Matrix
 
@@ -73,4 +74,3 @@ As we can see, the model is slightly overfitting.
 Potential areas for future work include:
 - Fine-tuning the model parameters for improved performance and to fix the overfitting.
 - Exploring additional features or models to enhance classification accuracy.
-- Conducting sentiment analysis to understand the tone and sentiment of political speeches.
